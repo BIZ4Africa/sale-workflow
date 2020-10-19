@@ -7,7 +7,6 @@ from odoo.tools import float_compare
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
-
     @api.model
     def _setup_fields(self):
         super(SaleOrder, self)._setup_fields()
